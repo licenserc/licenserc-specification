@@ -26,7 +26,7 @@ Rule lines contain a use keyword followed by `:` and a valid [Software Package D
 
 Uses and Use Keywords
 ---------------------
-`.licenserc` files include rules for several kinds of ways that projects can utilize open-source software. These uses are generalizations that individual users and compatible software tools should interpret for specific technologies. Though the following sections include concrete examples, those examples are subject to change, and are meant only to give a general idea of what each type of use entails
+`.licenserc` files may describe different rules for open-source software, depending on how that software is used in the project. Use keywords generalize different software use cases. Though the following sections include concrete examples, those examples are subject to change, and are meant only to give a general idea of what each type of use entails. Users and software projects should interpret the use keywords for themselves, in the context of specific technologies.
 
 If a `.licenserc` file is used for compliance with law, regulation, or the terms of a contract, consult an attorney. The meaning of each use keyword may be just as important as the choice of permitted licenses for achieving legal goals.
 
