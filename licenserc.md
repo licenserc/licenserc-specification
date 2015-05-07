@@ -20,13 +20,15 @@ File Format Details
 -------------------
 Each line of a `.licenserc` file is either a blank line, a comment line, or a rule line.
 
-Blank lines are empty or contain only whitespace. Comment lines begin with `"#"`. Both blank lines and comment lines are ignored by `.licenserc`-compatible software.
+Blank lines are empty or contain only whitespace. Comment lines begin with `"#"`. Both blank lines and comment lines are ignored by compatible software.
 
-Rule lines begin with a use keyword followed by `":"` and a valid [SPDX version 2.0 license expression][SPDX]. The license expression shows what terms open-source software must be licensed under to be used in that way within the project. If a `.licenserc` has more than one rule lines for a use keyword, the last is read and the rest are ignored. If a `.licenserc` file does not have a rule line for a use keyword, any kind of open-source work can be used in that way.
+Rule lines begin with a use keyword followed by `":"` and a valid [SPDX version 2.0 license expression][SPDX]. The license expression shows what terms open-source software must be licensed under to be used in that way within the project. If there is more than one rule line for a use keyword, the last rule line is read and the rest are ignored. If there isn't a rule line for a use keyword, any kind of open-source work can be used in that way.
 
 Uses and Use Keywords
 ---------------------
-licenserc files include rules for several kinds of ways that projects can utilize open-source software. These uses are generalizations that individual users and compatible software tools should interpret for specific technologies. Though the following sections include concrete examples, those examples are subject to change, and are meant only to give a general idea of what each type of use entails. If a `.licenserc` file is used for compliance with law, regulation, or the terms of a contract, consult an attorney to determine how a `.licenserc` file and related tools can be used to track compliance.
+`.licenserc` files include rules for several kinds of ways that projects can utilize open-source software. These uses are generalizations that individual users and compatible software tools should interpret for specific technologies. Though the following sections include concrete examples, those examples are subject to change, and are meant only to give a general idea of what each type of use entails
+
+If a `.licenserc` file is used for compliance with law, regulation, or the terms of a contract, consult an attorney. The meaning of each use keyword may be just as important as the choice of permitted licenses for achieving legal goals.
 
 ### Copy
 `copy` denotes rules about what kinds of open-source software a project can copy.
