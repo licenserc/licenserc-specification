@@ -60,11 +60,13 @@ For example, a [Java][Java] project with the following `.licenserc` file:
 
 License
 -------
-The `.licenserc` Specification is licensed under the terms of the Creative Commons Attribution 4.0 International Public License (SPDX "CC-BY-4.0").
+The `.licenserc` Specification is licensed under the terms of the Creative Commons Attribution 4.0 International Public License (SPDX [CC-BY-4.0][CC-BY-4.0]).
 
 [Apache-2.0]: http://spdx.org/licenses/Apache-2.0
 
 [Bundler]: http://bundler.io
+
+[CC-BY-4.0]: http://spdx.org/licenses/CC-BY-4.0
 
 [CoffeeScript]: http://coffeescript.org
 
