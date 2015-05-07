@@ -6,7 +6,7 @@ Whether strong personal conviction, company policy, or the terms of a business d
 
 What Does a `.licenserc` File Look Like?
 ----------------------------------------
-Here is a `.licenserc` file that allows copying of software licensed under either the [MIT License][MIT] or [version 3.0 of the GNU Public License][GPL-3.0], linking of software licensed under the MIT License or [version 2.0 of the Apache License][Apache-2.0], and modification of MIT-licensed software:
+Here is a `.licenserc` file that allows copying of software licensed under either the [MIT License][MIT] or [version 3 of the GNU Public License][GPL-3.0], linking of software licensed under the MIT License or [version 2.0 of the Apache License][Apache-2.0], and modification of MIT-licensed software:
 
     copy: (MIT OR GPL-3.0)
     link: (MIT OR Apache-2.0)
