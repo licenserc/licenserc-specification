@@ -50,7 +50,7 @@ For example, a [Ruby][Ruby] project with the following `.licenserc` file...
 ...could, as of this writing, install [Nokogiri][Nokogiri] and `require 'nokogiri'` in its own code.
 
 ### Modify
-`modify` denotes rules about what kinds of open-source software a project can modify.
+`modify` denotes rules about what kinds of open-source software a project can patch, statically or [dynamically][monkey patch], or otherwise alter.
 
 For example, a [Java][Java] project with the following `.licenserc` file...
 
@@ -72,6 +72,8 @@ This specification is licensed under the terms of [the Creative Commons Attribut
 [GPL-3.0]: http://spdx.org/licenses/GPL-3.0
 
 [Java]: http://en.wikipedia.org/wiki/Java_%28programming_language%29
+
+[monkey patch]: http://en.wikipedia.org/wiki/Monkey_patch
 
 [MIT]: http://spdx.org/licenses/MIT
 
