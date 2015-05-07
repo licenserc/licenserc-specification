@@ -59,6 +59,10 @@ For example, a [Java][Java] project with the following `.licenserc` file...
 
 ...could, as of this writing, copy the source code of [PDFBox][PDFBox] and apply a custom patch to add new functionality.
 
+Reference Implementation
+------------------------
+A [JavaScript reference implementation][licenserc.js] is available.
+
 License
 -------
 This specification is licensed under the terms of [the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0)][CC-BY-4.0].
@@ -72,6 +76,8 @@ This specification is licensed under the terms of [the Creative Commons Attribut
 [GPL-3.0]: http://spdx.org/licenses/GPL-3.0
 
 [Java]: http://en.wikipedia.org/wiki/Java_%28programming_language%29
+
+[licenserc.js]: https://github.com/licenserc/licenserc.js
 
 [monkey patch]: http://en.wikipedia.org/wiki/Monkey_patch
 
