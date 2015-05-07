@@ -29,10 +29,10 @@ Rule lines begin with a use keyword followed by `":"` and a valid [SPDX version 
 
 Uses and Use Keywords
 ---------------------
-licenserc files include rules for several kinds of ways that projects can utilize open-source software. These uses are generalizations that individual `.licenserc` users and technology-specific `.licenserc`-compatible software tools should interpret for specific technologies. Though the following sections include concrete examples, those examples are subject to change, and are meant only to give a general idea of what each type of use entails. If a `.licenserc` file is used for compliance with law, regulation, or the terms of a contract, consult an attorney to determine how a `.licenserc` file and related tools can be used to track compliance.
+licenserc files include rules for several kinds of ways that projects can utilize open-source software. These uses are generalizations that individual users and compatible software tools should interpret for specific technologies. Though the following sections include concrete examples, those examples are subject to change, and are meant only to give a general idea of what each type of use entails. If a `.licenserc` file is used for compliance with law, regulation, or the terms of a contract, consult an attorney to determine how a `.licenserc` file and related tools can be used to track compliance.
 
-### "copy"
-The "copy" use keyword denotes rules about what kinds of open-source software a project can copy.
+### Copy
+`copy` denotes rules about what kinds of open-source software a project can copy.
 
 For example, a [Node.js][Node.js] project with the following `.licenserc` file:
 
@@ -40,8 +40,8 @@ For example, a [Node.js][Node.js] project with the following `.licenserc` file:
 
 ... could, as of this writing, install [CoffeScript][CoffeeScript] as a development dependency with [npm][npm] and use the `coffee` command in build scripts.
 
-### "link"
-The "link" use keyword denotes rules about what kinds of open-source software a project can link, import, or bundle.
+### Link
+`link` denotes rules about what kinds of open-source software a project can link, import, or bundle.
 
 For example, a [Ruby][Ruby] project with the following `.licenserc` file:
 
@@ -49,8 +49,8 @@ For example, a [Ruby][Ruby] project with the following `.licenserc` file:
 
 ... could, as of this writing, install [Nokogiri][Nokogiri] from [RubyGems][RubyGems] with [Bundler][Bundler] and `require 'nokogiri'` in its own code.
 
-### "modify"
-The "modify" use keyword denotes rules about what kinds of open-source software a project can modify.
+### Modify
+`modify` denotes rules about what kinds of open-source software a project can modify.
 
 For example, a [Java][Java] project with the following `.licenserc` file:
 
