@@ -65,13 +65,17 @@ A [JavaScript reference implementation][licenserc.js] is available.
 
 License
 -------
-This specification is licensed under the terms of [the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0)][CC-BY-4.0].
+This specification is licensed under the terms of [the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0)][CC-BY-4.0]. It is the work of [K.E. Mitchell][author] and [fellow contributors][contributors].
 
 [Apache-2.0]: http://spdx.org/licenses/Apache-2.0
+
+[author]: http://kemitchell.com
 
 [CC-BY-4.0]: http://spdx.org/licenses/CC-BY-4.0
 
 [CoffeeScript]: http://coffeescript.org
+
+[contributors]: https://github.com/licenserc/licenserc-specification/graphs/contributors
 
 [GPL-3.0]: http://spdx.org/licenses/GPL-3.0
 
