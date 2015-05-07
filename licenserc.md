@@ -33,29 +33,29 @@ If a `.licenserc` file is used for compliance with law, regulation, or the terms
 ### Copy
 `copy` denotes rules about what kinds of open-source software a project can copy.
 
-For example, a [Node.js][Node.js] project with the following `.licenserc` file:
+For example, a [Node.js][Node.js] project with the following `.licenserc` file...
 
     use: MIT
 
-... could, as of this writing, install [CoffeScript][CoffeeScript] as a development dependency with [npm][npm] and use the `coffee` command in build scripts.
+...could, as of this writing, install [CoffeScript][CoffeeScript] as a development dependency with [npm][npm] and use the `coffee` command in build scripts.
 
 ### Link
 `link` denotes rules about what kinds of open-source software a project can link, import, or bundle.
 
-For example, a [Ruby][Ruby] project with the following `.licenserc` file:
+For example, a [Ruby][Ruby] project with the following `.licenserc` file...
 
     link: MIT
 
-... could, as of this writing, install [Nokogiri][Nokogiri] from [RubyGems][RubyGems] with [Bundler][Bundler] and `require 'nokogiri'` in its own code.
+...could, as of this writing, install [Nokogiri][Nokogiri] from [RubyGems][RubyGems] with [Bundler][Bundler] and `require 'nokogiri'` in its own code.
 
 ### Modify
 `modify` denotes rules about what kinds of open-source software a project can modify.
 
-For example, a [Java][Java] project with the following `.licenserc` file:
+For example, a [Java][Java] project with the following `.licenserc` file...
 
     modify: Apache-2.0
 
-... could, as of this writing, install [PDFBox][PDFBox] from [Maven][Maven], apply a custom patch to add new functionality.
+...could, as of this writing, install [PDFBox][PDFBox] from [Maven][Maven], apply a custom patch to add new functionality.
 
 License
 -------
