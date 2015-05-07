@@ -44,6 +44,7 @@ For example, a [Node.js][Node.js] project with the following `.licenserc` file..
 
 For example, a [Ruby][Ruby] project with the following `.licenserc` file...
 
+    use: Ruby
     link: MIT
 
 ...could, as of this writing, install [Nokogiri][Nokogiri] and `require 'nokogiri'` in its own code.
@@ -53,9 +54,10 @@ For example, a [Ruby][Ruby] project with the following `.licenserc` file...
 
 For example, a [Java][Java] project with the following `.licenserc` file...
 
+    use: GPL-2.0 WITH Classpath-exception-2.0
     modify: Apache-2.0
 
-...could, as of this writing, install [PDFBox][PDFBox] and apply a custom patch to add new functionality.
+...could, as of this writing, copy the source code of [PDFBox][PDFBox] and apply a custom patch to add new functionality.
 
 License
 -------
