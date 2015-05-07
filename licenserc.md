@@ -37,7 +37,7 @@ For example, a [Node.js][Node.js] project with the following `.licenserc` file..
 
     use: MIT
 
-...could, as of this writing, install [CoffeScript][CoffeeScript] as a development dependency with [npm][npm] and use the `coffee` command in build scripts.
+...could, as of this writing, copy [CoffeScript][CoffeeScript] into its directory and use its `coffee` command in build scripts.
 
 ### Link
 `link` denotes rules about what kinds of open-source software a project can link, import, or bundle.
@@ -46,7 +46,7 @@ For example, a [Ruby][Ruby] project with the following `.licenserc` file...
 
     link: MIT
 
-...could, as of this writing, install [Nokogiri][Nokogiri] from [RubyGems][RubyGems] with [Bundler][Bundler] and `require 'nokogiri'` in its own code.
+...could, as of this writing, install [Nokogiri][Nokogiri] and `require 'nokogiri'` in its own code.
 
 ### Modify
 `modify` denotes rules about what kinds of open-source software a project can modify.
@@ -55,15 +55,13 @@ For example, a [Java][Java] project with the following `.licenserc` file...
 
     modify: Apache-2.0
 
-...could, as of this writing, install [PDFBox][PDFBox] from [Maven][Maven], apply a custom patch to add new functionality.
+...could, as of this writing, install [PDFBox][PDFBox] and apply a custom patch to add new functionality.
 
 License
 -------
 This specification is licensed under the terms of [the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0)][CC-BY-4.0].
 
 [Apache-2.0]: http://spdx.org/licenses/Apache-2.0
-
-[Bundler]: http://bundler.io
 
 [CC-BY-4.0]: http://spdx.org/licenses/CC-BY-4.0
 
@@ -73,20 +71,14 @@ This specification is licensed under the terms of [the Creative Commons Attribut
 
 [Java]: http://en.wikipedia.org/wiki/Java_%28programming_language%29
 
-[Maven]: https://maven.apache.org
-
 [MIT]: http://spdx.org/licenses/MIT
 
 [Node.js]: https://nodejs.org
 
 [Nokogiri]: http://www.nokogiri.org
 
-[npm]: http://npmjs.com
-
 [PDFBox]: https://pdfbox.apache.org
 
 [Ruby]: https://www.ruby-lang.org
-
-[RubyGems]: http://rubygems.org
 
 [SPDX]: http://spdx.org/SPDX-specifications/spdx-version-2.0
