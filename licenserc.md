@@ -1,8 +1,5 @@
 The `.licenserc` Specification
-===========================
-
-What is `.licenserc`?
-------------------
+==============================
 The `.licenserc` file format allows developers to define rules about the kinds of open-source software they can use in software projects. Software package managers, audit programs, and other developer tools can read and understand `.licenserc` files, then help developers follow the rules they set.
 
 Whether strong personal conviction, company policy, or the terms of a business deal make licensing important, `.licenserc` can make it easier to respect the license terms others have chosen and ensure rights in your own work are clear.
