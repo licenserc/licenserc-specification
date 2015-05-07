@@ -5,7 +5,7 @@ The `.licenserc` file format allows developers to define rules about the kinds o
 Whether strong personal conviction, company policy, or the terms of a business deal make licensing important, `.licenserc` can make it easier to respect the license terms others have chosen and ensure rights in your own work are clear.
 
 What Does a `.licenserc` File Look Like?
-------------------------------------
+----------------------------------------
 Here is a `.licenserc` file that allows copying of software licensed under either the [MIT License][MIT] or [version 3.0 of the GNU Public License][GPL-3.0], linking of software licensed under the MIT License or [version 2.0 of the Apache License][Apache-2.0], and modification of MIT-licensed software:
 
     copy: (MIT OR GPL-3.0)
@@ -13,7 +13,7 @@ Here is a `.licenserc` file that allows copying of software licensed under eithe
     modify: MIT
 
 Where Do `.licenserc` Files Belong?
---------------------------------
+-----------------------------------
 Software programs look for files named `.licenserc` starting in the current directory. If the current directory doesn't have such a file, the search continues in the current director's parent, its parent, and so on.
 
 File Format Details
