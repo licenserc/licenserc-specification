@@ -22,7 +22,7 @@ Each line of a `.licenserc` file is either a blank line, a comment line, or a ru
 
 Blank lines are empty or contain only whitespace. Comment lines begin with `"#"`. Both blank lines and comment lines are ignored by compatible software.
 
-Rule lines begin with a use keyword followed by `":"` and a valid [SPDX version 2.0 license expression][SPDX]. The license expression shows what terms open-source software must be licensed under to be used in that way within the project. If there is more than one rule line for a use keyword, the last rule line is read and the rest are ignored. If there isn't a rule line for a use keyword, any kind of open-source work can be used in that way.
+Rule lines begin with a use keyword followed by `":"` and a valid [Software Package Data Exchange (SPDX) version 2.0 license expression][SPDX]. The license expression shows what terms open-source software must be licensed under to be used in that way within the project. If there is more than one rule line for a use keyword, the last rule line is read and the rest are ignored. If there isn't a rule line for a use keyword, any kind of open-source work can be used in that way.
 
 Uses and Use Keywords
 ---------------------
@@ -59,7 +59,7 @@ For example, a [Java][Java] project with the following `.licenserc` file:
 
 License
 -------
-This specification is licensed under the terms of [the Creative Commons Attribution 4.0 International Public License (SPDX CC-BY-4.0)][CC-BY-4.0].
+This specification is licensed under the terms of [the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0)][CC-BY-4.0].
 
 [Apache-2.0]: http://spdx.org/licenses/Apache-2.0
 
