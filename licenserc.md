@@ -36,6 +36,7 @@ If a `.licenserc` file is used for compliance with law, regulation, or the terms
 For example, a [Node.js][Node.js] project with the following `.licenserc` file...
 
     use: MIT
+    copy: MIT
 
 ...could, as of this writing, copy [CoffeScript][CoffeeScript] into its directory and use its `coffee` command in build scripts.
 
