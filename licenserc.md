@@ -59,6 +59,16 @@ For example, a [Java][Java] project with the following `.licenserc` file...
 
 ...could, as of this writing, copy the source code of [PDFBox][PDFBox] and apply a custom patch to add new functionality.
 
+### Distribute
+`distribute` denotes rules about what kinds of open-source software a project can distribute to users together with original code.
+
+For example, a [Python][Python] project with the following `.licenserc` file...
+
+    use: Python-2.0
+    distribute: MIT
+
+...could, as of this writing, bundle a copy of the [s3 module][python-s3] with its own source code for distribution to users.
+
 Reference Implementation
 ------------------------
 A [JavaScript reference implementation][licenserc.js] is available.
@@ -93,6 +103,10 @@ This specification is licensed under the terms of [the Creative Commons Attribut
 
 [PDFBox]: https://pdfbox.apache.org
 
+[Python]: https://www.python.org
+
 [Ruby]: https://www.ruby-lang.org
 
 [SPDX]: http://spdx.org/SPDX-specifications/spdx-version-2.0
+
+[s3-python]: https://pypi.python.org/pypi/s3/
