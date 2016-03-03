@@ -14,7 +14,7 @@ Here is a `.licenserc` file that allows copying of software licensed under eithe
 
 Where Do `.licenserc` Files Belong?
 -----------------------------------
-Software programs look for files named `.licenserc` starting in the current directory. If the current directory doesn't have such a file, the search continues in the current director's parent, its parent, and so on.
+Software programs look for files named `.licenserc` starting in the current directory. If the current directory doesn't have such a file, the search continues in the current directory's parent, its parent, and so on.
 
 File Format Details
 -------------------
