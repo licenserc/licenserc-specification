@@ -18,11 +18,11 @@ Software programs look for files named `.licenserc` starting in the current dire
 
 File Format Details
 -------------------
-Each line of a `.licenserc` file is either a blank line, a comment line, or a rule line.
+A `.licenserc` file must be a valid [YAML 1.2][YAML] file, consisting only of a single top-level generic mapping.
 
-Blank lines are empty or contain only whitespace. Comment lines begin with `#`. Software ignores both blank lines and comment lines.
+The keys in the map must be use keywords, as defined below.
 
-Rule lines contain a use keyword followed by `:` and a valid [Software Package Data Exchange (SPDX) version 2.0 license expression][SPDX]. The license expression shows which open-source licenses can apply to software used in that way within the project. If there more than one rule line uses the same use keyword, only the last such rule line applies. If there isn't a rule line for a use keyword, any kind of open-source software can be used in that way.
+Each value must be a valid [Software Package Data Exchange (SPDX) version 2.0 license expression][SPDX]. The license expression shows which open-source licenses can apply to software used in that way within the project. If there more than one rule line uses the same use keyword, only the last such rule line applies. If there isn't a rule line for a use keyword, any kind of open-source software can be used in that way.
 
 Uses and Use Keywords
 ---------------------
@@ -111,3 +111,5 @@ This specification is licensed under the terms of [the Creative Commons Attribut
 [SPDX]: http://spdx.org/SPDX-specifications/spdx-version-2.0
 
 [s3-python]: https://pypi.python.org/pypi/s3/
+
+[YAML]: http://www.yaml.org/spec/1.2/spec.html
